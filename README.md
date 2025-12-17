@@ -1,2 +1,27 @@
-# varun-jangale-portfolio
-Personal portfolio website showcasing my frontend skills, projects, and experience using modern web technologies.
+# 🌐 Personal Portfolio
+
+A modern personal portfolio website built to showcase my frontend development skills, projects, and professional journey.
+
+## 🚀 Features
+- Clean and responsive UI
+- Project showcase with details
+- Skills and experience overview
+- Contact section for easy communication
+- Optimized for desktop and mobile devices
+
+## 🛠️ Tech Stack
+- React
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+## 📸 Preview
+*(Add screenshots here once deployed)*
+
+## 📂 Project Setup
+To run this project locally:
+
+```bash
+npm install
+npm run dev
