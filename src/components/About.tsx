@@ -92,7 +92,7 @@ My expertise spans across React.js, Angular 14, Material UI, CoreUI, Bootstrap, 
               
               <div className={`p-6 rounded-xl ${isDark ? 'bg-slate-700' : 'bg-white'} shadow-lg`}>
                 <div className={`text-3xl font-bold ${isDark ? 'text-blue-400' : 'text-blue-600'} mb-2`}>
-                  25+
+                  10+
                 </div>
                 <div className={`text-lg ${isDark ? 'text-slate-300' : 'text-slate-700'}`}>
                   Projects Completed
@@ -101,7 +101,7 @@ My expertise spans across React.js, Angular 14, Material UI, CoreUI, Bootstrap, 
               
               <div className={`p-6 rounded-xl ${isDark ? 'bg-slate-700' : 'bg-white'} shadow-lg`}>
                 <div className={`text-3xl font-bold ${isDark ? 'text-blue-400' : 'text-blue-600'} mb-2`}>
-                  4
+                  2
                 </div>
                 <div className={`text-lg ${isDark ? 'text-slate-300' : 'text-slate-700'}`}>
                   Certifications

@@ -82,7 +82,22 @@ export const projects = [
   }
 ];
 
-export const certifications = [];
+export const certifications = [
+  {
+    title: "Getting Started with Flutter Development",
+    issuer: "Google",
+    year: "2023",
+    skills: ["Flutter", "Dart", "Mobile App Development"],
+    url: "#"
+  },
+  {
+    title: "AI Tools Workshop",
+    issuer: "United Latino Students Association",
+    year: "2025",
+    skills: ["Gamma.app", "Merlin", "NotebookLM", "Grok (xAI)", "ChatGPT"],
+    url: "#"
+  }
+];
 
 export const experience = [
   {

@@ -6,7 +6,7 @@ import { certifications } from '../data/portfolioData';
 const Certifications: React.FC = () => {
   const { isDark } = useTheme();
 
-  if (certifications.length === 0) {
+  if (certifications?.length === 0) {
     return null;
   }
 
