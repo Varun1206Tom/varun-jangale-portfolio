@@ -16,9 +16,6 @@ A modern personal portfolio website built to showcase my frontend development sk
 - HTML5
 - CSS3
 
-## 📸 Preview
-*(Add screenshots here once deployed)*
-
 ## 📂 Project Setup
 To run this project locally:
 
