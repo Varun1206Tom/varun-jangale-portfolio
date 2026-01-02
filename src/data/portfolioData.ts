@@ -134,15 +134,15 @@ export const education = [
     institution: "KLE's Dr M.S Sheshgiri College of Engineering & Technology",
     location: "Belgaum, Karnataka",
     year: "Aug 2023",
-    gpa: "",
+    gpa: "8.22 CGPA",
     distinction: ""
   },
   {
     degree: "Bachelor of Computer Applications",
     institution: "Jain College Of BBA, BCA And BCOM",
     location: "Belgaum, Karnataka",
-    year: "Oct 2020",
-    gpa: "",
+    year: "Oct 2021",
+    gpa: "6.65 CGPA",
     distinction: ""
   }
 ];
