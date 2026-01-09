@@ -41,35 +41,35 @@ export const projects = [
   {
     title: "Xpanse Admin Panel",
     description: "Built a fully responsive admin panel using React.js, CoreUI, and SCSS, with optimized UI/UX for seamless navigation across key modules including menu management, order tracking, and user administration.",
-    technologies: ["React.js", "CoreUI", "SCSS", "REST APIs", "Socket.IO"],
+    technologies: ["React.js", "CoreUI", "SCSS", "REST APIs", "Google Maps API", "Redux", "Html5", "CSS3"],
     githubUrl: "https://github.com/Varun1206Tom",
     demoUrl: "#"
   },
   {
     title: "Xpanse Cafe Website",
     description: "Developed a fully responsive café website using React.js and SCSS, with reusable components and intuitive UI/UX. Integrated CC Avenue for payments, Google Maps API for location, and Socket.IO for real-time order status updates.",
-    technologies: ["React.js", "SCSS", "CC Avenue", "Google Maps API", "Socket.IO"],
+    technologies: ["React.js", "SCSS", "Html5", "CSS3", "Material UI", "Redux", "CC Avenue", "Google Maps API", "Socket.IO", "Razor Pay"],
     githubUrl: "https://github.com/Varun1206Tom",
     demoUrl: "#"
   },
   {
-    title: "BexCart Website & Vendor Panel",
+    title: "BexCart Website, Admin Panel & Vendor Panel",
     description: "Handled order reliability logic with webhook fallback mechanism. Built vendor-specific modules to manage product listings, inventory, and sales with real-time API integration for synchronized dashboards.",
-    technologies: ["React.js", "Material UI", "REST APIs", "Webhooks"],
+    technologies: ["Angular 14", "Firebase", "REST APIs", "Html5", "CSS3", "Webhook Integration", "Bootstrap"],
     githubUrl: "https://github.com/Varun1206Tom",
     demoUrl: "#"
   },
   {
     title: "ZupZap Admin & Client Panel",
     description: "Built mobile-responsive React.js admin and client panels using Material UI, implementing core features like order management, vendor onboarding, and delivery tracking with consistent, user-friendly interface.",
-    technologies: ["React.js", "Material UI", "REST APIs", "Responsive Design"],
+    technologies: ["React.js", "Material UI", "Html5", "CSS3", "REST APIs", "Responsive Design"],
     githubUrl: "https://github.com/Varun1206Tom",
     demoUrl: "#"
   },
   {
     title: "BEX Attendance Admin Panel",
     description: "Created an Angular 14-based admin panel with NGX Bootstrap for managing employee attendance. Integrated real-time attendance logging with role-based access control and reporting dashboards.",
-    technologies: ["Angular 14", "NGX Bootstrap", "REST APIs", "Role-Based Access"],
+    technologies: ["Angular 14", "NGX Bootstrap", "REST APIs", "Html5", "CSS3"],
     githubUrl: "https://github.com/Varun1206Tom",
     demoUrl: "#"
   },
@@ -94,7 +94,7 @@ export const certifications = [
     title: "AI Tools Workshop",
     issuer: "United Latino Students Association",
     year: "2025",
-    skills: ["Gamma.app", "Merlin", "NotebookLM", "Grok (xAI)", "ChatGPT"],
+    skills: ["Gamma.app", "Merlin", "NotebookLM", "Grok (xAI)", "ChatGPT", "DALL·E"],
     url: "#"
   }
 ];
