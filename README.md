@@ -12,7 +12,7 @@ A modern personal portfolio website built to showcase my frontend development sk
 ## 🛠️ Tech Stack
 - React
 - Vite
-- JavaScript (ES6+)
+- Typscript
 - HTML5
 - CSS3
 
