@@ -20,7 +20,7 @@ const AppContent: React.FC = () => {
   const { isDark } = useTheme();
 
   useEffect(() => {
-    // Simulate loading time
+    // Simulate loading time 2
     const timer = setTimeout(() => {
       setIsLoading(false);
     }, 2000);
