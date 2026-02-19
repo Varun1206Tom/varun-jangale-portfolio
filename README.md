@@ -15,6 +15,7 @@ A modern personal portfolio website built to showcase my frontend development sk
 - Typscript
 - HTML5
 - CSS3
+- Tailwindcss
 
 ## 📂 Project Setup
 To run this project locally:
