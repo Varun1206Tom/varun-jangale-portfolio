@@ -84,7 +84,7 @@ export const projects = [
       "CSS3",
       "Responsive Design"
     ],
-    githubUrl: "https://github.com/Varun1206Tom",
+    githubUrl: "https://github.com/Varun1206Tom/Netflix-Clone-Angular14",
     demoUrl: "#"
   },
   {
@@ -100,7 +100,7 @@ export const projects = [
       "HTML5",
       "CSS3"
     ],
-    githubUrl: "https://github.com/Varun1206Tom",
+    githubUrl: "https://github.com/Varun1206Tom/inventory-sales-system",
     demoUrl: "#"
   },
 ];
