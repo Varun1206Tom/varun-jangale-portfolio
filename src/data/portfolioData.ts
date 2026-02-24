@@ -6,35 +6,35 @@ export const personalInfo = {
   phone: "+91-7349793037 / 7996456993",
   location: "Belgaum",
   github: "https://github.com/Varun1206Tom",
-  linkedin: "https://www.linkedin.com/in/varun-jangale-75650a29a/",
+  linkedin: "https://www.linkedin.com/in/varunjangale1203/",
   resumeUrl: "/resume.pdf"
 };
 
 export const skills = [
   { name: "React.js", icon: "react", proficiency: 90, projects: 15, certification: null },
-  { name: "Angular 14", icon: "angular", proficiency: 85, projects: 8, certification: null },
+  { name: "Angular 14", icon: "angular", proficiency: 85, projects: 5, certification: null },
   { name: "JavaScript", icon: "code2", proficiency: 88, projects: 20, certification: null },
-  { name: "TypeScript", icon: "typescript", proficiency: 82, projects: 12, certification: null },
+  { name: "TypeScript", icon: "typescript", proficiency: 82, projects: 6, certification: null },
   { name: "HTML5", icon: "html", proficiency: 95, projects: 25, certification: null },
   { name: "CSS3", icon: "css", proficiency: 92, projects: 25, certification: null },
   { name: "SCSS", icon: "scss", proficiency: 88, projects: 18, certification: null },
-  { name: "Material UI", icon: "material", proficiency: 85, projects: 10, certification: null },
-  { name: "CoreUI", icon: "coreui", proficiency: 80, projects: 8, certification: null },
-  { name: "Bootstrap", icon: "bootstrap", proficiency: 85, projects: 12, certification: null },
-  { name: "NGX Bootstrap", icon: "ngx", proficiency: 75, projects: 5, certification: null },
-  { name: "Node.js", icon: "node", proficiency: 70, projects: 6, certification: null },
-  { name: "Express.js", icon: "express", proficiency: 68, projects: 5, certification: null },
-  { name: "REST APIs", icon: "api", proficiency: 85, projects: 15, certification: null },
-  { name: "MongoDB", icon: "mongodb", proficiency: 72, projects: 8, certification: null },
-  { name: "SQL", icon: "database", proficiency: 70, projects: 6, certification: null },
-  { name: "Socket.IO", icon: "socket", proficiency: 80, projects: 5, certification: null },
+  { name: "Material UI", icon: "material", proficiency: 85, projects: 5, certification: null },
+  { name: "CoreUI", icon: "coreui", proficiency: 80, projects: 1, certification: null },
+  { name: "Bootstrap", icon: "bootstrap", proficiency: 85, projects: 5, certification: null },
+  { name: "NGX Bootstrap", icon: "ngx", proficiency: 75, projects: 4, certification: null },
+  { name: "Node.js", icon: "node", proficiency: 70, projects: 2, certification: null },
+  { name: "Express.js", icon: "express", proficiency: 68, projects: 2, certification: null },
+  { name: "REST APIs", icon: "api", proficiency: 85, projects: 20, certification: null },
+  { name: "MongoDB", icon: "mongodb", proficiency: 72, projects: 2, certification: null },
+  { name: "SQL", icon: "database", proficiency: 70, projects: 1, certification: null },
+  { name: "Socket.IO", icon: "socket", proficiency: 80, projects: 2, certification: null },
   { name: "Google Maps API", icon: "maps", proficiency: 75, projects: 3, certification: null },
-  { name: "CC Avenue", icon: "payment", proficiency: 80, projects: 2, certification: null },
-  { name: "Razorpay", icon: "payment", proficiency: 75, projects: 2, certification: null },
-  { name: "Cashfree", icon: "payment", proficiency: 75, projects: 2, certification: null },
-  { name: "Git", icon: "github", proficiency: 88, projects: 20, certification: null },
+  { name: "CC Avenue", icon: "payment", proficiency: 80, projects: 1, certification: null },
+  { name: "Razorpay", icon: "payment", proficiency: 75, projects: 1, certification: null },
+  { name: "Cashfree", icon: "payment", proficiency: 75, projects: 1, certification: null },
+  { name: "Git", icon: "github", proficiency: 88, projects: 12, certification: null },
   { name: "Figma", icon: "figma", proficiency: 70, projects: 8, certification: null },
-  { name: "Postman", icon: "postman", proficiency: 80, projects: 15, certification: null }
+  { name: "Postman", icon: "postman", proficiency: 80, projects: 20, certification: null }
 ];
 
 export const projects = [
@@ -149,7 +149,7 @@ export const experience = [
       "Handled BexCart Website order reliability logic by verifying webhook order creation status and implementing fallback mechanism when webhook failed, ensuring seamless user experience",
       "Built BexCart Vendor Panel - Vendor-specific modules to manage product listings, inventory, and sales with real-time API integration for synchronized dashboards",
       "Developed ZupZap Admin Panel & Client Panel - Mobile-responsive React.js panels using Material UI with order management, vendor onboarding, and delivery tracking features",
-      "Created BEX Attendance Admin Panel - Angular 14-based admin panel with NGX Bootstrap for managing employee attendance, real-time logging with role-based access control, and reporting dashboards"
+      "Built BEX Attendance Admin Panel - Angular 14-based admin panel with NGX Bootstrap for managing employee attendance, real-time logging with role-based access control, and reporting dashboards"
     ]
   },
   {
