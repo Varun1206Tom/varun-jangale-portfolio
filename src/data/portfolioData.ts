@@ -74,12 +74,35 @@ export const projects = [
     demoUrl: "#"
   },
   {
-    title: "Xpanse Investor SPA",
-    description: "Created a clean, mobile-first single-page application to serve as a franchise contact platform, allowing potential partners to easily submit inquiries with simple UI/UX for quick navigation.",
-    technologies: ["React.js", "SCSS", "Mobile-First Design", "REST APIs"],
+    title: "Netflix Clone",
+    description:
+      "Built a Netflix-inspired Angular 14 application to demonstrate component architecture, responsive layouts, and reusable UI design patterns.",
+    technologies: [
+      "Angular 14",
+      "TypeScript",
+      "HTML5",
+      "CSS3",
+      "Responsive Design"
+    ],
     githubUrl: "https://github.com/Varun1206Tom",
     demoUrl: "#"
-  }
+  },
+  {
+    title: "Inventory & Sales Management System",
+    description:
+      "Designed and implemented a full-stack application for inventory tracking, cart workflows, and order processing. Developed dashboard analytics and REST API integrations using React.js, Node.js, and MongoDB.",
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "HTML5",
+      "CSS3"
+    ],
+    githubUrl: "https://github.com/Varun1206Tom",
+    demoUrl: "#"
+  },
 ];
 
 export const certifications = [
