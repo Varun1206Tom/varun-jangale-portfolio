@@ -108,9 +108,23 @@ export const projects = [
 export const certifications = [
   {
     title: "Getting Started with Flutter Development",
-    issuer: "Google",
+    issuer: "Coursera",
     year: "2023",
-    skills: ["Flutter", "Dart", "Mobile App Development"],
+    skills: ["Flutter", "Dart", "Mobile App Development", "Package and Software Management", "Flutter (Software)", "Cloud Development", "Network Security", "Development Environment", "Google Cloud Platform", "Cross Platform Development", "User Interface (UI)", "Mobile Development"],
+    url: "#"
+  },
+  {
+    title: "Neural Networks and Deep Learning",
+    issuer: "Coursera",
+    year: "2023",
+    skills: ["Deep Learning", "Linear Algebra", "Recurrent Neural Networks (RNNs)", "Convolutional Neural Networks (CNN)", "Applied Machine Learning", "Supervised Learning", "Calculus", "Python (Programming Language)", "Artificial Neural Networks"],
+    url: "#"
+  },
+  {
+    title: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
+    issuer: "Coursera",
+    year: "2023",
+    skills: ["Machine Learning Methods", "TensorFlow", "Deep Learning", "Artificial Neural Networks", "Performance Tuning", "Model Evaluation", "Verification and Validation (V&V)", "Data Preprocessing"],
     url: "#"
   },
   {
