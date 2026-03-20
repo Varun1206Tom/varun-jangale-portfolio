@@ -7,7 +7,7 @@ export const personalInfo = {
   location: "Belgaum",
   github: "https://github.com/Varun1206Tom",
   linkedin: "https://www.linkedin.com/in/varunjangale1203/",
-  resumeUrl: "/resume.pdf"
+  resumeUrl: "/Varun_Jangale_Resume.pdf"
 };
 
 export const skills = [
@@ -39,19 +39,66 @@ export const skills = [
 
 export const projects = [
   {
+    title: "Xpanse Cafe Website",
+    description: "Developed a fully responsive café website using React.js and SCSS, with reusable components and intuitive UI/UX. Integrated CC Avenue for payments, Google Maps API for location, and Socket.IO for real-time order status updates.",
+    technologies: ["React.js", "SCSS", "Html5", "CSS3", "Material UI", "Redux", "CC Avenue", "Google Maps API", "Socket.IO", "Razor Pay"],
+    // githubUrl: "https://github.com/Varun1206Tom",
+    demoUrl: "https://xpansecafe.com/"
+  },
+  {
+    title: "Hirva Website Clone",
+    description:
+      "Developed a responsive clone of the Hirva website, replicating its UI, layout, and user experience. Implemented interactive elements, smooth navigation, and modern design principles using core frontend technologies.",
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "Responsive Design",
+      "UI/UX Design",
+      "Git",
+      "GitHub"
+    ],
+    // githubUrl: "#",
+    demoUrl: "https://www.hirvaenergy.com/"
+  },
+  {
+    title: "Koku Landing Page",
+    description: "Developed a modern and conversion-focused landing page with structured layouts and strong visual hierarchy. Designed responsive sections and optimized UI for better user engagement across devices.",
+    technologies: ["HTML5", "CSS3", "JavaScript (ES6+)", "Bootstrap", "Responsive Design", "UI/UX"],
+    // githubUrl: "#",
+    demoUrl: "https://kokudrink.com/"
+  },
+  {
+    title: "Namaste Chai SPA",
+    description: "Built a dynamic Single Page Application with seamless navigation and content updates without page reloads. Focused on efficient DOM manipulation and smooth transitions to enhance performance and user experience.",
+    technologies: ["HTML5", "CSS3", "JavaScript (ES6+)", "Bootstrap", "SPA Architecture"],
+    // githubUrl: "#",
+    demoUrl: "https://namastechai.in/"
+  },
+  {
+    title: "LuvSweet Website",
+    description: "Developed an interactive and visually engaging website with a focus on branding and user-friendly design. Integrated animations and responsive layouts to improve overall user interaction.",
+    technologies: ["HTML5", "CSS3", "JavaScript (ES6+)", "Bootstrap", "Animations", "Responsive Design"],
+    // githubUrl: "#",
+    demoUrl: "https://luvsweet.co/"
+  },
+  {
+    title: "Team24 Website",
+    description: "Designed a scalable multi-section website with reusable components and modular structure. Emphasized maintainable code practices and organized layout design for better scalability.",
+    technologies: ["HTML5", "CSS3", "JavaScript (ES6+)", "Bootstrap", "Reusable Components", "Responsive Design"],
+    githubUrl: "https://github.com/Varun1206Tom",
+    demoUrl: "#"
+  },
+
+
+  {
     title: "Xpanse Admin Panel",
     description: "Built a fully responsive admin panel using React.js, CoreUI, and SCSS, with optimized UI/UX for seamless navigation across key modules including menu management, order tracking, and user administration.",
     technologies: ["React.js", "CoreUI", "SCSS", "REST APIs", "Google Maps API", "Redux", "Html5", "CSS3"],
     githubUrl: "https://github.com/Varun1206Tom",
     demoUrl: "#"
   },
-  {
-    title: "Xpanse Cafe Website",
-    description: "Developed a fully responsive café website using React.js and SCSS, with reusable components and intuitive UI/UX. Integrated CC Avenue for payments, Google Maps API for location, and Socket.IO for real-time order status updates.",
-    technologies: ["React.js", "SCSS", "Html5", "CSS3", "Material UI", "Redux", "CC Avenue", "Google Maps API", "Socket.IO", "Razor Pay"],
-    githubUrl: "https://github.com/Varun1206Tom",
-    demoUrl: "#"
-  },
+
   {
     title: "BexCart Website, Admin Panel & Vendor Panel",
     description: "Handled order reliability logic with webhook fallback mechanism. Built vendor-specific modules to manage product listings, inventory, and sales with real-time API integration for synchronized dashboards.",
@@ -103,6 +150,7 @@ export const projects = [
     githubUrl: "https://github.com/Varun1206Tom/inventory-sales-system",
     demoUrl: "#"
   },
+
 ];
 
 export const certifications = [
@@ -111,28 +159,28 @@ export const certifications = [
     issuer: "Coursera",
     year: "2023",
     skills: ["Flutter", "Dart", "Mobile App Development", "Package and Software Management", "Flutter (Software)", "Cloud Development", "Network Security", "Development Environment", "Google Cloud Platform", "Cross Platform Development", "User Interface (UI)", "Mobile Development"],
-    url: "#"
+    url: "/flutter.pdf"
   },
   {
     title: "Neural Networks and Deep Learning",
     issuer: "Coursera",
     year: "2023",
     skills: ["Deep Learning", "Linear Algebra", "Recurrent Neural Networks (RNNs)", "Convolutional Neural Networks (CNN)", "Applied Machine Learning", "Supervised Learning", "Calculus", "Python (Programming Language)", "Artificial Neural Networks"],
-    url: "#"
+    url: "/neural2.pdf"
   },
   {
     title: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
     issuer: "Coursera",
     year: "2023",
     skills: ["Machine Learning Methods", "TensorFlow", "Deep Learning", "Artificial Neural Networks", "Performance Tuning", "Model Evaluation", "Verification and Validation (V&V)", "Data Preprocessing"],
-    url: "#"
+    url: "/hyper.pdf"
   },
   {
     title: "AI Tools Workshop",
     issuer: "United Latino Students Association",
     year: "2025",
     skills: ["Gamma.app", "Merlin", "NotebookLM", "Grok (xAI)", "ChatGPT", "DALL·E"],
-    url: "#"
+    url: "/ai.pdf"
   }
 ];
 

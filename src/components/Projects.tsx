@@ -54,8 +54,10 @@ const Projects: React.FC = () => {
                 </div>
 
                 {/* Action Buttons */}
+              
                 <div className="flex space-x-4">
-                  <a
+                    { project.githubUrl ?(
+                         <a
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -68,6 +70,8 @@ const Projects: React.FC = () => {
                     <Github className="w-5 h-5" />
                     <span>View Code</span>
                   </a>
+                    ): null}
+               
                   
                   {project.demoUrl && project.demoUrl !== "#" ? (
                     <a
@@ -88,9 +92,9 @@ const Projects: React.FC = () => {
               </div>
 
               {/* Hover Effect */}
-              <div className={`absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+              {/* <div className={`absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
                 isDark ? 'bg-blue-500/10' : 'bg-blue-500/5'
-              }`}></div>
+              }`}></div> */}
             </div>
           ))}
         </div>

@@ -27,15 +27,13 @@ const Certifications: React.FC = () => {
           {certifications.map((cert, index) => (
             <div
               key={index}
-              className={`group p-6 lg:p-8 rounded-xl transition-all duration-300 hover:transform hover:scale-105 ${
-                isDark ? 'bg-slate-800' : 'bg-slate-50'
-              } shadow-lg hover:shadow-2xl relative`}
+              className={`group p-6 lg:p-8 rounded-xl transition-all duration-300 hover:transform hover:scale-105 ${isDark ? 'bg-slate-800' : 'bg-slate-50'
+                } shadow-lg hover:shadow-2xl relative`}
             >
               {/* Certificate Header */}
               <div className="flex flex-col items-center text-center mb-6">
-                <div className={`w-12 h-12 rounded-full flex items-center justify-center mb-4 ${
-                  isDark ? 'bg-indigo-900 text-indigo-400' : 'bg-indigo-100 text-indigo-600'
-                }`}>
+                <div className={`w-12 h-12 rounded-full flex items-center justify-center mb-4 ${isDark ? 'bg-indigo-900 text-indigo-400' : 'bg-indigo-100 text-indigo-600'
+                  }`}>
                   <Award className="w-6 h-6" />
                 </div>
                 <div>
@@ -46,9 +44,8 @@ const Certifications: React.FC = () => {
                     {cert.issuer}
                   </p>
                 </div>
-                <div className={`mt-3 px-3 py-1 rounded-full text-sm font-medium ${
-                  isDark ? 'bg-indigo-900 text-indigo-200' : 'bg-indigo-100 text-indigo-800'
-                }`}>
+                <div className={`mt-3 px-3 py-1 rounded-full text-sm font-medium ${isDark ? 'bg-indigo-900 text-indigo-200' : 'bg-indigo-100 text-indigo-800'
+                  }`}>
                   {cert.year}
                 </div>
               </div>
@@ -71,24 +68,21 @@ const Certifications: React.FC = () => {
               </div>
 
               {/* View Certificate Button */}
-              <a
-                href={cert.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`hoverable inline-flex items-center justify-center space-x-2 w-full px-4 lg:px-6 py-3 rounded-lg font-medium transition-all duration-300 text-sm lg:text-base ${
-                  isDark
+              <button
+                onClick={() => window.open(cert.url, "_blank", "noopener,noreferrer")}
+                className={`hoverable inline-flex items-center justify-center space-x-2 w-full px-4 lg:px-6 py-3 rounded-lg font-medium transition-all duration-300 text-sm lg:text-base ${isDark
                     ? 'bg-blue-600 text-white hover:bg-blue-700'
                     : 'bg-blue-500 text-white hover:bg-blue-600'
-                } shadow-md hover:shadow-lg transform hover:scale-105`}
+                  } shadow-md hover:shadow-lg transform hover:scale-105`}
               >
                 <ExternalLink className="w-4 h-4 lg:w-5 lg:h-5" />
                 <span>View Certification</span>
-              </a>
+              </button>
+
 
               {/* Hover Effect */}
-              <div className={`absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-                isDark ? 'bg-blue-500/10' : 'bg-blue-500/5'
-              }`}></div>
+              {/* <div className={`absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${isDark ? 'bg-blue-500/10' : 'bg-blue-500/5'
+                }`}></div> */}
             </div>
           ))}
         </div>
