@@ -1,43 +1,50 @@
 export const personalInfo = {
-  name: "Varun Jangale",
-  title: "Front-End Developer",
-  description: "Front-End Developer with 2+ years of experience specializing in React.js and Angular 14, building scalable, responsive, and high-performance web applications.",
+  name: "VARUN RAMESH JANGALE",
+  title: "Frontend Engineer · React.js · Angular · AI-Integrated Web Applications",
+  description:
+    "Frontend Engineer with 2+ years of production experience building scalable, high-performance web applications using React.js and Angular 14. Delivered integrations including payment gateways, real-time systems, Google Maps, and a Gemini-LLM-powered conversational chatbot. Actively upskilling in system design and full-stack engineering.",
   email: "varunrameshjangale93@gmail.com",
-  phone: "+91-7349793037 / 7996456993",
-  location: "Belgaum",
+  phone: "+91-7349793037 / +91-7996456993",
+  location: "Belgaum, Karnataka",
   github: "https://github.com/Varun1206Tom",
   linkedin: "https://www.linkedin.com/in/varunjangale1203/",
-  resumeUrl: "/Varun_Jangale_Resume.pdf"
+  resumeUrl: "/Resume_Varun_R_Jangale.pdf"
 };
 
 export const skills = [
-  { name: "React.js", icon: "react", proficiency: 90, projects: 15, certification: null },
-  { name: "Angular 14", icon: "angular", proficiency: 85, projects: 5, certification: null },
-  { name: "JavaScript", icon: "code2", proficiency: 88, projects: 20, certification: null },
-  { name: "TypeScript", icon: "typescript", proficiency: 82, projects: 6, certification: null },
+  { name: "React.js", icon: "react", proficiency: 92, projects: 15, certification: null },
+  { name: "Angular 14", icon: "angular", proficiency: 86, projects: 6, certification: null },
+  { name: "JavaScript (ES6+)", icon: "code2", proficiency: 90, projects: 20, certification: null },
+  { name: "TypeScript", icon: "typescript", proficiency: 84, projects: 8, certification: null },
   { name: "HTML5", icon: "html", proficiency: 95, projects: 25, certification: null },
-  { name: "CSS3", icon: "css", proficiency: 92, projects: 25, certification: null },
-  { name: "SCSS", icon: "scss", proficiency: 88, projects: 18, certification: null },
-  { name: "Material UI", icon: "material", proficiency: 85, projects: 5, certification: null },
-  { name: "CoreUI", icon: "coreui", proficiency: 80, projects: 1, certification: null },
-  { name: "Bootstrap", icon: "bootstrap", proficiency: 85, projects: 5, certification: null },
-  { name: "NGX Bootstrap", icon: "ngx", proficiency: 75, projects: 4, certification: null },
-  { name: "Node.js", icon: "node", proficiency: 70, projects: 2, certification: null },
-  { name: "Express.js", icon: "express", proficiency: 68, projects: 2, certification: null },
-  { name: "REST APIs", icon: "api", proficiency: 85, projects: 20, certification: null },
-  { name: "MongoDB", icon: "mongodb", proficiency: 72, projects: 2, certification: null },
-  { name: "SQL", icon: "database", proficiency: 70, projects: 1, certification: null },
-  { name: "Socket.IO", icon: "socket", proficiency: 80, projects: 2, certification: null },
-  { name: "Google Maps API", icon: "maps", proficiency: 75, projects: 3, certification: null },
-  { name: "CC Avenue", icon: "payment", proficiency: 80, projects: 1, certification: null },
-  { name: "Razorpay", icon: "payment", proficiency: 75, projects: 1, certification: null },
-  { name: "Cashfree", icon: "payment", proficiency: 75, projects: 1, certification: null },
-  { name: "Git", icon: "github", proficiency: 88, projects: 12, certification: null },
-  { name: "Figma", icon: "figma", proficiency: 70, projects: 8, certification: null },
-  { name: "Postman", icon: "postman", proficiency: 80, projects: 20, certification: null }
+  { name: "CSS3 / SCSS", icon: "css", proficiency: 93, projects: 25, certification: null },
+  { name: "Material UI", icon: "material", proficiency: 86, projects: 6, certification: null },
+  { name: "CoreUI", icon: "coreui", proficiency: 82, projects: 3, certification: null },
+  { name: "Bootstrap", icon: "bootstrap", proficiency: 86, projects: 8, certification: null },
+  { name: "NGX Bootstrap", icon: "ngx", proficiency: 76, projects: 4, certification: null },
+  { name: "Node.js / Express.js", icon: "node", proficiency: 72, projects: 4, certification: null },
+  { name: "REST APIs", icon: "api", proficiency: 86, projects: 25, certification: null },
+  { name: "MongoDB", icon: "mongodb", proficiency: 74, projects: 3, certification: null },
+  { name: "Socket.IO", icon: "socket", proficiency: 82, projects: 3, certification: null },
+  { name: "Google Maps API", icon: "maps", proficiency: 78, projects: 3, certification: null },
+  { name: "Payment Integrations (Razorpay, CCAvenue, Cashfree)", icon: "payment", proficiency: 80, projects: 3, certification: null },
+  { name: "Webhook reliability & order fallback", icon: "webhook", proficiency: 80, projects: 2, certification: null },
+  { name: "Gemini LLM / AI Integration", icon: "ai", proficiency: 72, projects: 1, certification: null },
+  { name: "Prompt engineering", icon: "prompt", proficiency: 70, projects: 1, certification: null },
+  { name: "Git", icon: "github", proficiency: 88, projects: 20, certification: null },
+  { name: "Figma", icon: "figma", proficiency: 72, projects: 10, certification: null },
+  { name: "Postman", icon: "postman", proficiency: 82, projects: 25, certification: null }
 ];
 
 export const projects = [
+  {
+    title: "AI Chatbot Integration — Xpanse Admin Panel",
+    description:
+      "Architected and integrated a Gemini-LLM-powered conversational chatbot into the Xpanse admin panel, including multi-step API orchestration, function-calling schemas, and graceful error/fallback handling for production reliability.",
+    technologies: ["Gemini LLM", "React.js", "REST APIs", "Function-calling", "Prompt engineering"],
+    githubUrl: "https://github.com/Varun1206Tom",
+    demoUrl: "#"
+  },
   {
     title: "Xpanse Cafe Website",
     description: "Developed a fully responsive café website using React.js and SCSS, with reusable components and intuitive UI/UX. Integrated CC Avenue for payments, Google Maps API for location, and Socket.IO for real-time order status updates.",
@@ -107,6 +114,14 @@ export const projects = [
     demoUrl: "#"
   },
   {
+    title: "Inventory & Sales Management System",
+    description:
+      "Built a full-stack Inventory & Sales Management System with cart workflows, order processing, inventory tracking, and analytics dashboards. Owned frontend, backend, and database integration.",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+    githubUrl: "https://github.com/Varun1206Tom/inventory-sales-system",
+    demoUrl: "#"
+  },
+  {
     title: "ZupZap Admin & Client Panel",
     description: "Built mobile-responsive React.js admin and client panels using Material UI, implementing core features like order management, vendor onboarding, and delivery tracking with consistent, user-friendly interface.",
     technologies: ["React.js", "Material UI", "Html5", "CSS3", "REST APIs", "Responsive Design"],
@@ -132,22 +147,6 @@ export const projects = [
       "Responsive Design"
     ],
     githubUrl: "https://github.com/Varun1206Tom/Netflix-Clone-Angular14",
-    demoUrl: "#"
-  },
-  {
-    title: "Inventory & Sales Management System",
-    description:
-      "Designed and implemented a full-stack application for inventory tracking, cart workflows, and order processing. Developed dashboard analytics and REST API integrations using React.js, Node.js, and MongoDB.",
-    technologies: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "REST APIs",
-      "HTML5",
-      "CSS3"
-    ],
-    githubUrl: "https://github.com/Varun1206Tom/inventory-sales-system",
     demoUrl: "#"
   },
 
@@ -176,28 +175,28 @@ export const certifications = [
     url: "/hyper.pdf"
   },
   {
-    title: "AI Tools Workshop",
-    issuer: "United Latino Students Association",
-    year: "2025",
-    skills: ["Gamma.app", "Merlin", "NotebookLM", "Grok (xAI)", "ChatGPT", "DALL·E"],
-    url: "/ai.pdf"
+    title: "Flutter Development (in progress)",
+    issuer: "Udemy",
+    year: "In Progress",
+    skills: ["Flutter", "Dart", "Mobile Development"],
+    url: "#"
   }
 ];
 
 export const experience = [
   {
-    title: "Front-End Developer",
-    company: "BEX Technologies",
+    title: "Frontend Developer",
+    company: "Bex Technologies Pvt Ltd",
     location: "Panaji, Goa",
     period: "Dec 2023 - Present",
     achievements: [
-      "Built Xpanse Admin Panel - Fully responsive admin panel using React.js, CoreUI, and SCSS with optimized UI/UX for seamless navigation across menu management, order tracking, and user administration modules",
-      "Developed Xpanse Cafe Website - Fully responsive café website using React.js and SCSS with reusable components, integrated CC Avenue for payments, Google Maps API for location, and Socket.IO for real-time order status updates",
-      "Created Xpanse Investor SPA - Clean, mobile-first single-page application for franchise contact platform with simple UI/UX for quick navigation and seamless form submission",
-      "Handled BexCart Website order reliability logic by verifying webhook order creation status and implementing fallback mechanism when webhook failed, ensuring seamless user experience",
-      "Built BexCart Vendor Panel - Vendor-specific modules to manage product listings, inventory, and sales with real-time API integration for synchronized dashboards",
-      "Developed ZupZap Admin Panel & Client Panel - Mobile-responsive React.js panels using Material UI with order management, vendor onboarding, and delivery tracking features",
-      "Built BEX Attendance Admin Panel - Angular 14-based admin panel with NGX Bootstrap for managing employee attendance, real-time logging with role-based access control, and reporting dashboards"
+      "Built and shipped a React.js admin panel managing vendors, admin users, products, procurements and more with role-based access control across 12 modules",
+      "Architected a Redux permission system controlling edit, delete, and module visibility for 5 distinct user roles",
+      "Designed and integrated a Gemini-LLM-powered chatbot into the Xpanse admin panel, handling multi-step API orchestration and function-calling schemas",
+      "Integrated Razorpay and CCAvenue payment gateways into a customer-facing café ordering platform",
+      "Implemented Socket.IO for real-time menu product updates and order status",
+      "Implemented a webhook fallback mechanism ensuring 99%+ order creation reliability during payment gateway timeouts",
+      "Integrated Google Maps API for delivery location features and converted 8+ Figma designs into pixel-perfect, responsive production UI components"
     ]
   },
   {
