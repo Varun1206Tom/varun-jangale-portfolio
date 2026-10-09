@@ -15,28 +15,36 @@ export const skills = [
   { name: "React.js", icon: "react", proficiency: 92, projects: 15, certification: null },
   { name: "Angular 14", icon: "angular", proficiency: 86, projects: 6, certification: null },
   { name: "JavaScript (ES6+)", icon: "code2", proficiency: 90, projects: 20, certification: null },
-  { name: "TypeScript", icon: "typescript", proficiency: 84, projects: 8, certification: null },
+  { name: "TypeScript", icon: "typescript", proficiency: 84, projects: 9, certification: null },
   { name: "HTML5", icon: "html", proficiency: 95, projects: 25, certification: null },
   { name: "CSS3 / SCSS", icon: "css", proficiency: 93, projects: 25, certification: null },
   { name: "Material UI", icon: "material", proficiency: 86, projects: 6, certification: null },
   { name: "CoreUI", icon: "coreui", proficiency: 82, projects: 3, certification: null },
   { name: "Bootstrap", icon: "bootstrap", proficiency: 86, projects: 8, certification: null },
   { name: "NGX Bootstrap", icon: "ngx", proficiency: 76, projects: 4, certification: null },
-  { name: "Node.js / Express.js", icon: "node", proficiency: 72, projects: 4, certification: null },
+  { name: "Node.js / Express.js", icon: "node", proficiency: 72, projects: 5, certification: null },
   { name: "REST APIs", icon: "api", proficiency: 86, projects: 25, certification: null },
-  { name: "MongoDB", icon: "mongodb", proficiency: 74, projects: 3, certification: null },
+  { name: "MongoDB", icon: "mongodb", proficiency: 74, projects: 4, certification: null },
   { name: "Socket.IO", icon: "socket", proficiency: 82, projects: 3, certification: null },
   { name: "Google Maps API", icon: "maps", proficiency: 78, projects: 3, certification: null },
   { name: "Payment Integrations (Razorpay, CCAvenue, Cashfree)", icon: "payment", proficiency: 80, projects: 3, certification: null },
   { name: "Webhook reliability & order fallback", icon: "webhook", proficiency: 80, projects: 2, certification: null },
-  { name: "Gemini LLM / AI Integration", icon: "ai", proficiency: 72, projects: 1, certification: null },
-  { name: "Prompt engineering", icon: "prompt", proficiency: 70, projects: 1, certification: null },
+  { name: "Gemini LLM / AI Integration", icon: "ai", proficiency: 72, projects: 2, certification: null },
+  { name: "Prompt engineering", icon: "prompt", proficiency: 70, projects: 2, certification: null },
   { name: "Git", icon: "github", proficiency: 88, projects: 20, certification: null },
   { name: "Figma", icon: "figma", proficiency: 72, projects: 10, certification: null },
   { name: "Postman", icon: "postman", proficiency: 82, projects: 25, certification: null }
 ];
 
 export const projects = [
+  {
+    title: "AI Job Application Agent",
+    description:
+      "Built an automated job-application agent that reads job posts from Gmail (IMAP), parses them with Gemini, and scores each one against my profile using LLM skill-fit plus rule-based checks for experience and location. It drafts a tailored email and sends it via SMTP, with a review queue for borderline matches, a daily send cap, duplicate protection, a dry-run mode, and MongoDB Atlas tracking. Runs on a daily schedule.",
+    technologies: ["Node.js", "TypeScript", "Gemini API", "Prompt engineering", "MongoDB Atlas", "Nodemailer", "IMAP", "REST APIs"],
+    githubUrl: "https://github.com/Varun1206Tom/job-agent",
+    demoUrl: "#"
+  },
   {
     title: "AI Chatbot Integration — Xpanse Admin Panel",
     description:
